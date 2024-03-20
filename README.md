@@ -8,7 +8,7 @@ python main.py
 ```
 
 ## 效果
-![Alt text](test.png)
+![Image text]()
 
 ## 参考
 https://www.youtube.com/watch?v=w26Ze6lP02Y
