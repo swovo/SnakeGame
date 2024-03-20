@@ -28,7 +28,7 @@ def cv2AddChineseText(image, text, position, textColor=(255, 255, 255), textSize
     draw = ImageDraw.Draw(image)
     # 字体的格式
     fontStyle = ImageFont.truetype(
-        "wqy-zenhei.ttc", textSize, encoding="utf-8")
+        "wqy-zenhei.ttc", textSize, encoding="utf-8") #使用系统中存在的中文字体
     # 绘制文本
     draw.text(position, text, textColor, font=fontStyle)
     # 转换回OpenCV格式
